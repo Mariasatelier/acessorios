@@ -106,7 +106,7 @@ header nav ul li a{
   background: #ffffff;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   margin-bottom: 80px;
 }
 
@@ -314,6 +314,10 @@ header nav ul li a{
   header nav ul .ini a{
     color: #FFC4CD;
     text-decoration: none;
+  }
+  
+  .produtos{
+    justify-content: center;
   }
 }
 
